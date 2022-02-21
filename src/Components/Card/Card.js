@@ -35,28 +35,39 @@ function Card() {
         </div>
       </div>
       <div className="flex justify-between w-40 mt-16 2xl:mt-32 2xl:w-60 social-link">
-        <FontAwesomeIcon
-          icon={faFacebook}
-          size="2xl"
-          className="cursor-pointer 2xl:text-5xl hover:text-[#7fa1e1]"
+        <a
+          href="https://www.facebook.com/nguyenfamj"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <a href="https://www.facebook.com/nguyenfamj"></a>
-        </FontAwesomeIcon>
-        <FontAwesomeIcon
-          icon={faInstagram}
-          size="2xl"
-          className="cursor-pointer 2xl:text-5xl hover:text-[#E1306C]"
+          <FontAwesomeIcon
+            icon={faFacebook}
+            size="2xl"
+            className="cursor-pointer 2xl:text-5xl hover:text-[#7fa1e1]"
+          ></FontAwesomeIcon>
+        </a>
+        <a
+          href="https://www.instagram.com/ph.khnguyen/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <a href="https://www.instagram.com/ph.khnguyen/"></a>
-        </FontAwesomeIcon>
-        <FontAwesomeIcon
-          icon={faGithub}
-          size="2xl"
-          className="cursor-pointer 2xl:text-5xl hover:text-[#fafafa]"
+          <FontAwesomeIcon
+            icon={faInstagram}
+            size="2xl"
+            className="cursor-pointer 2xl:text-5xl hover:text-[#E1306C]"
+          ></FontAwesomeIcon>
+        </a>
+        <a
+          href="https://github.com/nguyenfamj"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          {' '}
-          <a href="https://github.com/nguyenfamj"></a>
-        </FontAwesomeIcon>
+          <FontAwesomeIcon
+            icon={faGithub}
+            size="2xl"
+            className="cursor-pointer 2xl:text-5xl hover:text-[#fafafa]"
+          ></FontAwesomeIcon>
+        </a>
       </div>
     </section>
   );
