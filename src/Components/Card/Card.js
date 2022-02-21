@@ -39,17 +39,24 @@ function Card() {
           icon={faFacebook}
           size="2xl"
           className="cursor-pointer 2xl:text-5xl hover:text-[#7fa1e1]"
-        ></FontAwesomeIcon>
+        >
+          <a href="https://www.facebook.com/nguyenfamj"></a>
+        </FontAwesomeIcon>
         <FontAwesomeIcon
           icon={faInstagram}
           size="2xl"
           className="cursor-pointer 2xl:text-5xl hover:text-[#E1306C]"
-        ></FontAwesomeIcon>
+        >
+          <a href="https://www.instagram.com/ph.khnguyen/"></a>
+        </FontAwesomeIcon>
         <FontAwesomeIcon
           icon={faGithub}
           size="2xl"
           className="cursor-pointer 2xl:text-5xl hover:text-[#fafafa]"
-        ></FontAwesomeIcon>
+        >
+          {' '}
+          <a href="https://github.com/nguyenfamj"></a>
+        </FontAwesomeIcon>
       </div>
     </section>
   );
